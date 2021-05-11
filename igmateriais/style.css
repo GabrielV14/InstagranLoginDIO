@@ -103,8 +103,34 @@ body {
     background-size: cover;
 }
 .app-download:nth-child(1) {
-    background-image: url('c:/instaproj/igmateriais/buttons/applebutton.png');
+    background-image: url('./buttons/applebutton.png');
 }
 .app-download:nth-child(2) {
-    background-image: url('c:/instaproj/igmateriais/buttons/googleplaybutton.png');
+    background-image: url('./buttons/googleplaybutton.png');
+}
+
+/* media queries */
+
+@media (max-width:1024px) {
+    .instagram-wrapper {
+        height: 90%;
+    }
+}
+
+@media (max-width:650px) {
+    .body{
+        background-color: #ffffff;
+    }
+    .instagram-wrapper {
+        height:90%;
+    }
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-continue {
+        width:100%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
 }
