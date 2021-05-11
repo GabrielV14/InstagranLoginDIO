@@ -103,10 +103,10 @@ body {
     background-size: cover;
 }
 .app-download:nth-child(1) {
-    background-image: url('./buttons/applebutton.png');
+    background-image: url('./img/applebutton.png');
 }
 .app-download:nth-child(2) {
-    background-image: url('./buttons/googleplaybutton.png');
+    background-image: url('./img/googleplaybutton.png');
 }
 
 /* media queries */
